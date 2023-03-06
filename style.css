@@ -2,10 +2,68 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+body {background-color:#b2bec3 ;}
+body {font-family: Nunito;
+    font-size: 18px;}
+
+.foto {width: 150px;
+    border-radius: 50%;
+    border: solid 3px white;
+    box-shadow: 1px 1px 20px #808080;
+    position: absolute;
+    top: -75px;
+    right:-75px;}
+
+h1 {color:#d63031;
+    font-size: 36px;
+    font-weight: bold;
+    }
+
+p {margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: justify ;}
+
+.box {
+    margin-top: 150px;
+    position: relative;
+    background-color: white;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding:30px;
+    box-shadow: 1px 1px 20px #808080;}
+
+.box a {display:inline-block;
+text-decoration:none;
+padding:10px;
+border-radius: 5px;
+width: 100%;
+text-align: center;
+text-transform: uppercase;
+}
+
+
+
+.twitter {
+color:white;
+font-weight: bold;
+background-color: #1da1f2 ;
+margin-bottom: 5px;
+}
+
+.facebook {
+color:white;
+font-weight: bold;
+background-color: #3b5998 ;
+}
+
+.twitter:hover {background-color:#0b7bc1 ;}
+.facebook:hover {background-color:#2b406e ;}
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
-červená na hlavní nadpis:  #d63031
+červená na hlavní nadpis:  
 
 tlačítko Twitter:					 #1da1f2
 tlačítko Twitter aktivní:	 #0b7bc1
